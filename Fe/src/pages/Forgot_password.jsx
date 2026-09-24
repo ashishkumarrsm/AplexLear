@@ -34,7 +34,7 @@ const Forgot_password = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/v1/auth/forgot-password",
+        "https://aplexlear.onrender.com/api/v1/auth/forgot-password",
         formData
       );
 

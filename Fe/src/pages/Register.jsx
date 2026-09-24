@@ -113,7 +113,7 @@ const Register = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/v1/auth/register",
+        "https://aplexlear.onrender.com/api/v1/auth/register",
         formData
       );
 
